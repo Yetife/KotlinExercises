@@ -7,7 +7,7 @@ fun main() {
     println("Enter words: ")
     words = input.next()
 
-    println("${pangram(words)} $words")
+    println("${pangram(words)}")
 }
 fun pangram(words: String): Boolean {
     val lowerString = words.map { it.lowercaseChar() }
