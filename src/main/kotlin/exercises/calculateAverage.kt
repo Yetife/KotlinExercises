@@ -9,9 +9,8 @@ fun main() {
 fun calculateAverage(array: Array<Int>): Int {
     var sum = 0
     var average = 0
-    for(number in array){
-        sum += number
-        average = sum / array.size;
-    }
+    for(number in array) sum += number
+
+    average = sum / array.size;
     return average;
 }
